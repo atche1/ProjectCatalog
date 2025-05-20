@@ -78,11 +78,12 @@
             label15 = new Label();
             label14 = new Label();
             tabPage6 = new TabPage();
-            tabPage7 = new TabPage();
-            sortbutton1 = new Button();
             sortlistBox1 = new ListBox();
-            searchrichTextBox1 = new RichTextBox();
+            sortbutton1 = new Button();
+            tabPage7 = new TabPage();
             label17 = new Label();
+            searchrichTextBox1 = new RichTextBox();
+            button1 = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -117,6 +118,7 @@
             // tabPage1
             // 
             tabPage1.BackgroundImage = (Image)resources.GetObject("tabPage1.BackgroundImage");
+            tabPage1.Controls.Add(button1);
             tabPage1.Controls.Add(pictureBox1);
             tabPage1.Controls.Add(printAllMoviesList);
             tabPage1.Controls.Add(showAllMovies);
@@ -621,18 +623,14 @@
             tabPage6.Text = "Sort";
             tabPage6.UseVisualStyleBackColor = true;
             // 
-            // tabPage7
+            // sortlistBox1
             // 
-            tabPage7.BackgroundImage = (Image)resources.GetObject("tabPage7.BackgroundImage");   
-            tabPage7.Controls.Add(label17);
-            tabPage7.Controls.Add(searchrichTextBox1);
-            tabPage7.Location = new Point(4, 49);
-            tabPage7.Name = "tabPage7";
-            tabPage7.Padding = new Padding(3);
-            tabPage7.Size = new Size(995, 582);
-            tabPage7.TabIndex = 6;
-            tabPage7.Text = "Search";
-            tabPage7.UseVisualStyleBackColor = true;
+            sortlistBox1.FormattingEnabled = true;
+            sortlistBox1.ItemHeight = 37;
+            sortlistBox1.Location = new Point(49, 57);
+            sortlistBox1.Name = "sortlistBox1";
+            sortlistBox1.Size = new Size(897, 263);
+            sortlistBox1.TabIndex = 1;
             // 
             // sortbutton1
             // 
@@ -645,22 +643,18 @@
             sortbutton1.Text = "Sort";
             sortbutton1.UseVisualStyleBackColor = true;
             // 
-            // sortlistBox1
+            // tabPage7
             // 
-            sortlistBox1.FormattingEnabled = true;
-            sortlistBox1.ItemHeight = 37;
-            sortlistBox1.Location = new Point(49, 57);
-            sortlistBox1.Name = "sortlistBox1";
-            sortlistBox1.Size = new Size(897, 263);
-            sortlistBox1.TabIndex = 1;
-            // 
-            // searchrichTextBox1
-            // 
-            searchrichTextBox1.Location = new Point(43, 124);
-            searchrichTextBox1.Name = "searchrichTextBox1";
-            searchrichTextBox1.Size = new Size(434, 375);
-            searchrichTextBox1.TabIndex = 0;
-            searchrichTextBox1.Text = "";
+            tabPage7.BackgroundImage = (Image)resources.GetObject("tabPage7.BackgroundImage");
+            tabPage7.Controls.Add(label17);
+            tabPage7.Controls.Add(searchrichTextBox1);
+            tabPage7.Location = new Point(4, 49);
+            tabPage7.Name = "tabPage7";
+            tabPage7.Padding = new Padding(3);
+            tabPage7.Size = new Size(995, 582);
+            tabPage7.TabIndex = 6;
+            tabPage7.Text = "Search";
+            tabPage7.UseVisualStyleBackColor = true;
             // 
             // label17
             // 
@@ -673,11 +667,22 @@
             label17.TabIndex = 1;
             label17.Text = "Type keywords for searching:";
             // 
-            // searchlistBox1
+            // searchrichTextBox1
             // 
+            searchrichTextBox1.Location = new Point(43, 124);
+            searchrichTextBox1.Name = "searchrichTextBox1";
+            searchrichTextBox1.Size = new Size(434, 375);
+            searchrichTextBox1.TabIndex = 0;
+            searchrichTextBox1.Text = "";
             // 
-            // searchbutton1
+            // button1
             // 
+            button1.Location = new Point(754, 159);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 3;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -775,5 +780,6 @@ After:
     }
 */
         private RichTextBox searchrichTextBox1;
+        private Button button1;
     }
 }

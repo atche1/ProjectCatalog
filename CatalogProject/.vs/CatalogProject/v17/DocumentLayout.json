@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\atche-11g\\\u0411\u0414\\ProjectCatalog\\CatalogProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B194965C-706A-49DC-913A-B2606B03E34F}|..\\CatalogProjectForms\\CatalogProjectForms.csproj|d:\\atche-11g\\\u0431\u0434\\projectcatalog\\catalogprojectforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F08CB90-1CE3-488F-BFBB-45D23E8A505B}|CatalogProject.csproj|d:\\atche-11g\\\u0431\u0434\\projectcatalog\\catalogproject\\models\\catalogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F08CB90-1CE3-488F-BFBB-45D23E8A505B}|CatalogProject.csproj|solutionrelative:models\\catalogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 243,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\atche-11g\\\u0411\u0414\\ProjectCatalog\\CatalogProjectForms\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\CatalogProjectForms\\Form1.cs",
+              "ToolTip": "D:\\atche-11g\\\u0411\u0414\\ProjectCatalog\\CatalogProjectForms\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\CatalogProjectForms\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T06:47:09.493Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CatalogContext.cs",
+              "DocumentMoniker": "D:\\atche-11g\\\u0411\u0414\\ProjectCatalog\\CatalogProject\\Models\\CatalogContext.cs",
+              "RelativeDocumentMoniker": "Models\\CatalogContext.cs",
+              "ToolTip": "D:\\atche-11g\\\u0411\u0414\\ProjectCatalog\\CatalogProject\\Models\\CatalogContext.cs",
+              "RelativeToolTip": "Models\\CatalogContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA9wCgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T06:45:05.742Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
